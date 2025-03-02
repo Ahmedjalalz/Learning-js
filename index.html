@@ -7,7 +7,91 @@
     <link rel="stylesheet" href ="style.css">
 </head>
 <body>
-    <h1 id="hd1"></h1>
+
+        <h1 id="hd1"></h1>
+        <div class="para">
+
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+            <p id="p4"></p>
+        </div>
+        <br>
+        <br>
+
+        <div class="trig">
+            
+            <label>Enter Your Name:</label>
+            <input class="InsertBox" id="nameID" type="text"><br><br>
+            <label>Enter Radius of the circle:</label>
+            <input class="InsertBox" id="RadiusID" type="text"><br>
+            <button id="submitButton">Submit</button><br>
+            <p id="p5"></p>
+        </div>
+        <br>
+        <br>
+        <div class="counter">
+
+            <label id="countID">0</label><br>
+            <div id="buttons">
+                
+                <button class="buttonC" id="increaseBtn">Increase</button> 
+                <button class="buttonC" id="decreaseBtn">Decrease</button> 
+                <button class="buttonC" id="resetBtn">Reset</button> 
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="dice">
+
+            <div class="Rollbutton">
+                
+                <button id="rollBtn">Roll</button>
+            </div>
+            <div class="allRolls">
+                
+                <label class="Roll" id="roll1">0</label>
+                <label class="Roll" id="roll2">0</label>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="payment">
+            <input type="checkbox" name="subscribe" id="subID">
+            <label for="subID">Subscribe</label>
+            <br>
+            <br>
+
+            <input type="radio" value="Bank" name="card" id="BankID">
+            <label for="BankID">Bank</label><br>
+
+            <input type="radio" value="JazzCash" name="card" id="JazzCashID">
+            <label for="JazzCashID">JazzCash</label><br>
+
+            <input type="radio" value="EasyPaisa" name="card"  id="EasyPaisaID">
+            <label for="EasyPaisaID">EasyPaisa</label><br>
+
+            <input type="radio" value="NayaPay" name="card"  id="NayaPayID">
+            <label for="NayaPayID">NayaPay</label><br>
+            <br>
+            <button id="submit"> Submit</button>
+            <br>
+            <p id="subDisplay"></p>
+            <p id="PaymentDisplay"></p>
+            
+        </div>
+        <br>
+        <br>
+        <div class="guess">
+            <h1>Guess The Number!</h1>
+
+         <div id="Display Sreen">
+            <h3>Guess the Number Between 1 and 100.</h3>
+         </div>
+         <label for="inputAns">Enter Your Answer Here:</label>
+         <input type="text" id="inputAns">
+        </div>
+        
     <script src = "index.js"></script>
 </body>
 </html>
